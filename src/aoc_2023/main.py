@@ -6,7 +6,7 @@ import logging
 import re
 from typing import Any, Iterator
 from data_loader import DataLoader
-from models import Day01Objects
+from models import Day01Objects, Day02Objects
 
 
 
@@ -22,6 +22,8 @@ def main() -> None:
     )
     Day01Objects.day01_main('a')
     Day01Objects.day01_main('b')
+    Day02Objects.day02_main('a')
+    Day02Objects.day02_main('b')
 
 if __name__ == '__main__':
     main()

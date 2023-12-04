@@ -68,8 +68,6 @@ def day01_main(part:str) -> None:
                     converted_line = data_line
                 value:int = calculate_value(converted_line)
                 total_value += value
-                if(mode=='actual' and part=='b'):
-                    logging.info(f'{data_line} -> {converted_line} -> {value}')
         print(f'Day 01-{part} {mode}: {total_value}')
 
 def calculate_value(converted_line) -> int:
